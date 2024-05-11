@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About Us</title>
+  <link rel="stylesheet" href="style1.css">
+  <link rel="shortcut icon" href="Images/ch.jpeg" type="image/x-icon">
+</head>
+<body>
+
+  <!-- <section class="slideshow-container">
+      <img class="mySlides"src  ="Images/1.jpg">
+      <img class="mySlides" src="Images/2.jpg">
+      <img class="mySlides" src="Images/3.jpg" >
+      <img class="mySlides" src="Images/4.jpg">
+      <img class="mySlides"src="Images/5.jpg">
+        <img class="mySlides" src="Images/6.jpg">
+        <img class="mySlides" src="Images/7.jpg">
+        <img class="mySlides" src="Images/8.jpg" >
+        <img class="mySlides" src="Images/9.jpg">
+        <img class="mySlides" src="Images/10.jpg">
+        <img class="mySlides" src="Images/11.jpg">
+        <img class="mySlides"src="Images/17.jpg">
+        <img class="mySlides"src="Images/18.jpg" >
+        <img class="mySlides"src="Images/19.jpg"> 
+        <img class="mySlides" src="Images/21.jpg">
+        <img class="mySlides"src="Images/22.jpg">
+        <img class="mySlides"src="Images/23.jpg">
+        <img  class="mySlides"src="Images/24.jpg">
+        <img class="mySlides"src="Images/25.jpg">
+        <img class="mySlides"src="Images/26.jpg">
+        <img class="mySlides"src="Images/27.jpg">
+        <img class="mySlides"src="Images/28.jpg">
+        <img class="mySlides"src="Images/29.jpg">
+        <img class="mySlides"src="Images/30.jpg">
+        <img class="mySlides"src="Images/31.jpg" alt="">
+        <img class="mySlides"src="Images/32.jpg" alt="">
+        <img class="mySlides"src="Images/33.jpg" alt="">
+        <img class="mySlides"src="Images/34.jpg" alt="">
+        <img class="mySlides"src="Images/35.jpg" alt="">
+        <img class="mySlides" src="Images/36.jpg" alt="">
+        <img class="mySlides" src="Images/37.jpg" alt="">
+        <img class="mySlides" src="Images/38.jpg" alt="">
+        <img class="mySlides"src="Images/39.jpg" alt="">
+        <img class="mySlides" src="Images/40.jpg" alt="">
+      </section> <br><br> -->
+      <div class="above">
+        <!-- <h4>0893333333</h4> -->
+    </div>
+    <div class="navigate">
+        <div>
+            <img src="./images/flogo.png" alt="">
+        </div>
+        <div class="sidenav nav-menu">
+            <a href="./home.html">
+                <li class="nav-item">Home</li>
+            </a>
+            <li class="nav-item">About</li>
+            <li class="nav-item">Services</li>
+            <li class="nav-item">Images</li>
+            <li class="nav-item">Contact</li>
+            <li class="nav-item">Tenets of Faith</li>
+        </div>
+        <div class="hamburger">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+    </div>
+      <header>
+        Midweek Services
+      </header>
+      <ul>
+        <li>Tuesday: Bible Study 5:30-7:00 pm</li>
+        <li>Friday: Power Econter 5:30-7:00</li>
+        <li>Every First Sarurday of each month: <span>Prayer Summit</span></li>
+        <li>Sunay Service 9am
+       <p>Press <a href="https://web.facebook.com/watch/?v=313327038091741">here</a> to join us every Sunday</p>
+        </li>
+
+      </ul>
+        <div class="Jesus">
+         <img class="red" src="Images/jesus.jpg" alt="">
+         <header>Jesus Christ Is The Saviour Of The World</header>
+         <p>“For God so loved the world, that he gave his only begotten Son, that whosoever believes in him should not perish, but have everlasting life.” – John 3:16</p>
+        <p>“But He was wounded for our transgressions, He was bruised for our iniquities; the chastisement for our peace was upon Him…” – Isaiah 53:5</p>
+       <p>“Who gave himself for us, that he might redeem us from all iniquity, and purify unto himself a peculiar people, zealous of good works.” – Titus 2:14</p>
+      </div>
+    </body>
+</html>
+<script>
+// Automatic Slideshow - change image every 3 seconds
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}
+  x[myIndex-1].style.display = "block";
+  setTimeout(carousel, 3000);
+}
+</script>
